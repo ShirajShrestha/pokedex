@@ -86,7 +86,7 @@ const Pokemons = () => {
           pokemonList.map((pokemon) => (
             <div
               key={pokemon.id}
-              className="bg-gray-800 rounded-lg shadow-lg p-4 flex flex-col items-center transition-transform hover:scale-105 border-2 border-blue-400"
+              className="bg-gray-800 rounded-lg shadow-lg p-4 flex flex-col items-center transition-transform hover:scale-105 border-2 border-blue-400 cursor-pointer"
               onClick={() => viewPokemonDetails(pokemon.id)}
             >
               <img
